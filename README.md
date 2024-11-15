@@ -55,28 +55,3 @@ Après avoir ajouté la dépendance, exécutez la commande suivante pour téléc
 ```bash
 mvn clean install
 ```
-
-### 7. Structure des Dossiers 📁
-
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── erwan/
-│   │           └── aopdemo/
-│   │               ├── controller/
-│   │               │   └── EmployeeController.java
-│   │               ├── entity/
-│   │               │   └── Employee.java
-│   │               ├── dao/
-│   │               │   └── EmployeeRepository.java
-│   │               └── service/
-│   │                   └── EmployeeService.java
-│   ├── resources/
-│   │   ├── static/
-│   │   ├── templates/
-                employees/
-│   │   │       └── employee-list.html
-│   │   │       └── employee-form.html
-│   │   └── application.properties
-
